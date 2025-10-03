@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top right,#9FBDC7,#F5E3E0);
+}
+
+#nav{
+    position: absolute;
+    top: 30px;
+    height: 30px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    left: 5%;
+}
+
+#clean{
+    height: 100%;
+    display: flex; 
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+}
+
+#pro{
+    color: white;
+}
+
+.center{
+    font-weight: 500;
+    height: 100%;
+    width: 350px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.getapp{
+    width: 150px;
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#left{
+    position: absolute;
+    top: 35%;
+    left:5%;
+    font-size: 90px;
+    color: white;
+}
+
+#left div{
+    line-height: 0.9;
+    font-weight: 700;
+}
+.hero{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    background-image: url(./shirt.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#left {
+    position: absolute;
+    z-index: 2;
+}
+#right{
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    height: 300px;
+    width: 200px;
+    background-color:#DDD9D4 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    
+}
+.img{
+    height: 60%;
+    width: 100%;
+    background-image: url(./Cloth\ Stack.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+
+#bottom{
+    height: 10%;
+    width: 100%;
+    background-color: #1D2A2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45%;
+
+}
+
+#photos{
+    height: 40px;
+    width: 320px;
+    
+    display: flex;
+    font-size: 35px;
+    color: white;
+}
+#rev{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: black;
+    
+}
+.photo1{
+    height: 100%;
+    width: 20%;
+    background-image: url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.photo2{
+    height: 100%;
+    width: 20%;
+    background-image:url(https://plus.unsplash.com/premium_photo-1688350808212-4e6908a03925?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBvcnRyYWl0fGVufDB8fDB8fHww) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.photo3{
+    height: 100%;
+    width: 20%;
+    background-image: url(https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBvcnRyYWl0fGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: top;
+    border-radius: 10px;
+}
+.photo4{
+    height: 100%;
+    width: 20%;
+    background-image: url(https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHBvcnRyYWl0fGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.photo5{
+    height: 100%;
+    width: 20%;
+    background-image: url(https://images.unsplash.com/photo-1528892952291-009c663ce843?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHBvcnRyYWl0fGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+#photos p{
+    padding-top: 7px;
+    margin-left: 10px;
+}
+#flyer1{
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 1;
+}
+.img3{
+    
+    height: 100%;
+    width: 40px;
+    background-image: url(./laurel_wreath-left.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+.img4{
+    height: 100%;
+    width: 40px;
+    background-image: url(./laurel_wreath-right.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#flyer2{
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    z-index: 1;
+}
